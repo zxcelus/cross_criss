@@ -105,10 +105,10 @@ void sort_words(vector<string>& Array) {
 	}
 }
 
-int isalpha_rus(char c) {
-	if (c >= 'à' && c <= 'ÿ' || c >= 'À' && c <= 'ß' || c == '¸' || c == '¨')
+int isalpha_rus(char alphabet) {
+	if (alphabet >= 'à' && alphabet <= 'ÿ' || alphabet >= 'À' && alphabet <= 'ß' || alphabet == '¸' || alphabet == '¨')
 		return 1;
-	else if (isalpha(c))
+	else if (isalpha(alphabet))
 		return 2;
 	else
 		return 0;

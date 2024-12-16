@@ -31,7 +31,7 @@ int input_from_file(vector<string>& Array, char* words);
 void caps_func(vector<string>& Array);
 void caps_func_rus(vector<string>& Array);
 int correct_insert_check(vector<string>& Array);
-int isalpha_rus(char c);
+int isalpha_rus(char alphabet);
 int max_size(vector<string>& Array);
 void delete_matrix(char** matrix, size_t size);
 int check_words_crisscross(string& Array_1, string& Array_2);
